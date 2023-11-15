@@ -1,0 +1,17 @@
+#section3{
+    text-align: justify;
+    margin-top: 200px;
+    text-align: start;
+    margin-left: 450px;
+    list-style-position: outside;
+    list-style: circle;
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    list-style-position: calc(margin-left);
+    
+}
+
+}
