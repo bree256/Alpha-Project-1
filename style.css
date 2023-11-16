@@ -1,3 +1,4 @@
+
 body{
   background-color: black;
 }
@@ -43,3 +44,94 @@ body{
   right: 0;
   padding-right: 25px;
 }
+=======
+
+.sidebar {
+ width: 279px;
+height: 768px;
+background-color: #2d2d2d;
+text-align: center;
+}
+.logo {
+height: 86px;
+
+
+
+}
+.nav-list li a {
+text-decoration: none;
+color: #ffffff;
+width: 156px;
+height: 354.5px;
+top: 172px;
+left: 40px;
+list-style: none;
+
+}
+#secttion1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    width: 80%;
+    margin-left: 1%;
+    margin-right: 50%;
+    padding-right: 50%;
+    padding-left: 0%;
+}
+li {
+margin: 1em;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+border-bottom: 1px solid #ffffff;
+padding: 0.5em;
+}
+
+/* dashboard style starts here */
+body{
+    background-color: black;
+}
+h2{
+color: #FFF;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 12rem;
+padding-top: 3rem;
+}
+ .dash{
+display: flex;
+justify-content: space-evenly;
+} 
+.one{
+    width: 244px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;    
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+}
+#one{
+    display: flex;
+    flex-direction: column;
+}
+.dash p{
+color: #000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 30px;
+}
+/* dashboard style ends here */
+
