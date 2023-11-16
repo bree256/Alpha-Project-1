@@ -1,3 +1,49 @@
+
+.sidebar {
+ width: 279px;
+height: 768px;
+background-color: #2d2d2d;
+text-align: center;
+}
+.logo {
+height: 86px;
+
+
+
+}
+.nav-list li a {
+text-decoration: none;
+color: #ffffff;
+width: 156px;
+height: 354.5px;
+top: 172px;
+left: 40px;
+list-style: none;
+
+}
+#secttion1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    width: 80%;
+    margin-left: 1%;
+    margin-right: 50%;
+    padding-right: 50%;
+    padding-left: 0%;
+}
+li {
+margin: 1em;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+border-bottom: 1px solid #ffffff;
+padding: 0.5em;
+}
+
 /* dashboard style starts here */
 body{
     background-color: black;
@@ -41,3 +87,4 @@ line-height: normal;
 padding-bottom: 30px;
 }
 /* dashboard style ends here */
+
