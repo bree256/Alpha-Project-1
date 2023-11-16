@@ -14,54 +14,14 @@
 
      overflow: visible;
     white-space: nowrap;
+    position: relative;
+}
+.image{
+    position: absolute;
+    right: 0;
     
-    }
-    .ellipse1{
-       height : 19px ;
-        width: 19px;
-        top: 518px;
-        left: 1155px;
-        background-color: #e9a6a6;
-        margin-left: 300px;
-        
-    }  
 
-.ellipse2{
-    height: 19px;
-    width: 19px;
-    top: 518px;
-    left: 1155px;
-        background-color: #e9a6a6;
-        margin-left: 300px;
-        
-}
-.ellipse3{
-    height: 19px;
-    width: 19px;
-    top: 518px;
-    left: 1155px;
-    background-color: #e9a6a6;
-    margin-left: 300px;
-
-}
-.ellipse4{
-    height: 19px;
-    width: 19px;
-    top: 518px;
-    left: 1155px;
-    background-color: #e9a6a6;
-    margin-left: 300px;
-    
-}
-.ellipse5{
-    height: 19px;
-    width: 19px;
-    top: 518px;
-    left: 1155px;
-    background-color: #e9a6a6;
-    margin-left: 300px;
-    margin-top: 40px;
 }
 
 
-}
+
