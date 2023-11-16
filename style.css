@@ -1,4 +1,13 @@
 
+ 
+ .side-bar{
+    background-color: black;
+    width: 200px;
+    height: 1px;
+    color: black;
+ }
+
+
 body{
   background-color: black;
 }
@@ -44,7 +53,7 @@ body{
   right: 0;
   padding-right: 25px;
 }
-=======
+
 
 .sidebar {
  width: 279px;
@@ -134,4 +143,5 @@ line-height: normal;
 padding-bottom: 30px;
 }
 /* dashboard style ends here */
+
 
