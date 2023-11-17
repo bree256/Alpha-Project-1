@@ -1,64 +1,24 @@
 
 body{
-  background-color: black;
+  background-color: rgb(19, 18, 18);
 }
-#section3 h5{
-  color: #FFF;
-  font-family: Roboto;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+/* container for the whole page */
+section{
+  display: flex;
+  gap: 5%;
 }
-.report{
-  width: 434px;
-  height: 239px;
-  flex-shrink: 0;
-  border: 20px;
-  border-radius: 20px;
-  background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-  position: relative;
-}
-.report ul{
-  padding-top: 13px;
-  padding-bottom: 18px;
-}
-.report ul li{
-  list-style-type: none;
-  color: #000;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  padding-top: 15px;
-}
-.report ul li svg{
-  width: 19px;
-  height: 19px;
-  flex-shrink: 0;
-  fill: #E9A6A6;
-  position: absolute;
-  /* top: 0; */
-  right: 0;
-  padding-right: 25px;
-}
-=======
 
+/* Navigation styles start from here */
 .sidebar {
- width: 279px;
-height: 768px;
+ width: 285px;
+ height: 100vh; 
 background-color: #2d2d2d;
 text-align: center;
 }
 .logo {
 height: 86px;
-
-
-
 }
-.nav-list li a {
+.nav-list .list a {
 text-decoration: none;
 color: #ffffff;
 width: 156px;
@@ -66,20 +26,16 @@ height: 354.5px;
 top: 172px;
 left: 40px;
 list-style: none;
-
 }
-#secttion1 {
-    text-align: center;
+.nav-list {
+list-style-type: none;
+width: 80%;
+margin-left: 1%;
+margin-right: 50%;
+padding-right: 50%;
+padding-left: 0%;
 }
-ul {
-    list-style-type: none;
-    width: 80%;
-    margin-left: 1%;
-    margin-right: 50%;
-    padding-right: 50%;
-    padding-left: 0%;
-}
-li {
+.list {
 margin: 1em;
 font-family: Roboto;
 font-size: 14px;
@@ -91,10 +47,7 @@ border-bottom: 1px solid #ffffff;
 padding: 0.5em;
 }
 
-/* dashboard style starts here */
-body{
-    background-color: black;
-}
+/* Dashboard styles start from here */
 h2{
 color: #FFF;
 font-family: Roboto;
@@ -102,26 +55,26 @@ font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding-left: 12rem;
-padding-top: 3rem;
+padding-top: 1rem;
 }
- .dash{
-display: flex;
-justify-content: space-evenly;
+.dash{
+display: flex; 
+gap: 65px;
+flex-wrap: wrap;
 } 
 .one{
-    width: 244px;
-    height: 64px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;    
-    display: flex; 
-    justify-content: space-around;
-    align-items: center; 
+width: 244px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;    
+display: flex; 
+justify-content: space-around; 
+align-items: center; 
 }
 #one{
-    display: flex;
+    display: flex; 
     flex-direction: column;
 }
 .dash p{
@@ -129,9 +82,101 @@ color: #000;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 line-height: normal;
 padding-bottom: 30px;
 }
-/* dashboard style ends here */
+
+/* Report styles start from here */
+#section3 h5{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#section3 {
+  padding-top:4em ;
+}
+.report{
+  width: 434px;
+  flex-shrink: 0;
+  border: 20px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  position: relative;
+}
+.report ul{
+  padding-top: 8px;
+  padding-bottom: 15px;
+} 
+.report ul li{
+  list-style-type: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height:normal;
+  padding-top: 15px; 
+} 
+.report ul li svg{
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  fill: #E9A6A6;
+  position: absolute;
+  right: 0;
+  padding-right: 25px;
+}
+.ReportSection{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* media queries start from here */
+@media only screen and (max-width: 780px){
+  .dash{
+     padding-left: 12%;
+  }
+  .one{
+    width: 300px;
+  }
+  .ReportSection{
+    padding-left: 3%;
+  }
+#section3 h5{
+  padding-left: 5%;
+}
+h2{
+  padding-left: 12%;
+ }
+}
+@media only screen and (max-width: 480px){
+  .dash{
+     padding-left: 15%;
+  }
+  .one{
+    width: 200px;
+  }
+  .ReportSection{
+    padding-left: 3%;
+  }
+ #section3 h5{
+  padding-left: 5%;
+
+}
+ h2{
+  padding-left: 12%;
+}
+ .report{
+  width: 270px;
+}
+ .sidebar{
+  width: 150px;
+}
+}
 
